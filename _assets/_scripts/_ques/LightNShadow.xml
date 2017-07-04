@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<script>
+	<que name="START" loop="no">
+		<print>Animation started</print>
+			<anim name="Lamp1" duration="20s" loop="normal">
+             		<track name="t1">0 {2 * PI}</track>
+             		<track name="t2">0 -4</track>
+             		<send>/sparck/node ::Light_1::property::transformRotX {sin(t1) * 30 + 160}</send>
+             		<send>/sparck/node ::Light2_TFM::rotationZ {sin(t1) * 90}</send>
+             		<send>/sparck/node ::Model_1::property::rotationZ {sin(t1) * 90}</send>
+             		<send>/sparck/node ::Torus::property::rotationZ {sin(t1) * 180}</send>
+             		<send>/sparck/node ::Sphere::property::positionZ {t2}</send>
+       		</anim>
+			<anim name="Sphere" duration="20s" loop="normal">
+             		<track name="t1">0 {2 * PI}</track>
+             		<send>/sparck/node ::Sphere::property::positionZ {sin(t1) * 2 -2}</send>
+       		 </anim>
+        	<wait countdown="2s"/>
+        	<send>/sparck/node ::Drone::property::animenable 1</send>
+        	<wait trigger="willNeverHappen"/>
+	</que>
+</script>

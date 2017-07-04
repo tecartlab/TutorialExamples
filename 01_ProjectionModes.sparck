@@ -1,0 +1,613 @@
+{
+	"_enable" : 1,
+	"Window" : 	{
+		"_type" : "Window",
+		"Window_1" : 		{
+			"_type" : "Window",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Window_1",
+			"_title" : "BoxMaps",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 505, 235, 685, 375 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"MeshWarp" : 	{
+		"_type" : "MeshWarp"
+	}
+,
+	"Video" : 	{
+		"_type" : "Video",
+		"Video_1" : 		{
+			"_type" : "Video",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Video_1",
+			"_title" : "Video_1",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 178, 111, 358, 193 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Video_2" : 		{
+			"_type" : "Video",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Video_2",
+			"_title" : "TextureProjVideo",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 36, 199, 216, 281 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"Grid" : 	{
+		"_type" : "Grid",
+		"Grid_1" : 		{
+			"_type" : "Grid",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Grid_1",
+			"_title" : "Grid_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 50, 398, 230, 498 ],
+			"_nodespace.idx" : 1
+		}
+
+	}
+,
+	"ViewPort" : 	{
+		"_type" : "ViewPort",
+		"ViewPort_1" : 		{
+			"_type" : "ViewPort",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "ViewPort_1",
+			"_title" : "ViewPort_1",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 502, 463, 682, 540 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "TextureStitcher_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"subnode" : 	{
+		"subnode_1" : 		{
+			"_type" : "subnode",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "subnode_1",
+			"_title" : "UVProjection",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 46, 32, 226, 72 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "subnode",
+		"subnode_2" : 		{
+			"_type" : "subnode",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "subnode_2",
+			"_title" : "TextureProjection",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 45, 100, 225, 140 ],
+			"_nodespace.idx" : 2
+		}
+,
+		"subnode_3" : 		{
+			"_type" : "subnode",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "subnode_3",
+			"_title" : "BoxMapProjection",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 45, 223, 225, 263 ],
+			"_nodespace.idx" : 3
+		}
+,
+		"subnode_4" : 		{
+			"_type" : "subnode",
+			"_version" : 1,
+			"_id" : 4,
+			"_name" : "subnode_4",
+			"_title" : "RayMarchProjection",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 45, 158, 225, 198 ],
+			"_nodespace.idx" : 4
+		}
+
+	}
+,
+	"sub-inlet" : 	{
+		"sub-inlet_1" : 		{
+			"_type" : "sub-inlet",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "sub-inlet_1",
+			"_title" : "sub-inlet_1",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 20, 40, 230, 72 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "sub-inlet",
+		"sub-inlet_2" : 		{
+			"_type" : "sub-inlet",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "sub-inlet_2",
+			"_title" : "sub-inlet_2",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 37, 47, 247, 79 ],
+			"_nodespace.idx" : 2
+		}
+,
+		"sub-inlet_3" : 		{
+			"_type" : "sub-inlet",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "sub-inlet_3",
+			"_title" : "sub-inlet_3",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 40, 29, 250, 61 ],
+			"_nodespace.idx" : 3
+		}
+,
+		"sub-inlet_4" : 		{
+			"_type" : "sub-inlet",
+			"_version" : 1,
+			"_id" : 4,
+			"_name" : "sub-inlet_4",
+			"_title" : "sub-inlet_4",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 78, 51, 288, 83 ],
+			"_nodespace.idx" : 4
+		}
+
+	}
+,
+	"" : 	{
+		"nodename" : 		{
+			"_iolets" : 0
+		}
+
+	}
+,
+	"Canvas" : 	{
+		"_type" : "Canvas",
+		"Canvas_2" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Canvas_2",
+			"_title" : "SquishedLense",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 51, 85, 231, 167 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_4" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 4,
+			"_name" : "Canvas_4",
+			"_title" : "Canvas_4",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 7, 237, 187, 319 ],
+			"_nodespace.idx" : 4,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_5" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 5,
+			"_name" : "Canvas_5",
+			"_title" : "Canvas_5",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 196, 239, 376, 321 ],
+			"_nodespace.idx" : 5,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_6" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 6,
+			"_name" : "Canvas_6",
+			"_title" : "Canvas_6",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 382, 241, 562, 323 ],
+			"_nodespace.idx" : 6,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_7" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 7,
+			"_name" : "Canvas_7",
+			"_title" : "Canvas_7",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 567, 244, 747, 326 ],
+			"_nodespace.idx" : 7,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_8" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 8,
+			"_name" : "Canvas_8",
+			"_title" : "Canvas_8",
+			"_nodespace" : "root::1",
+			"_level" : 1,
+			"_rect" : [ 754, 243, 934, 325 ],
+			"_nodespace.idx" : 8,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_1", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_1" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Canvas_1",
+			"_title" : "Canvas_1",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 25, 398, 205, 480 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_9" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 9,
+			"_name" : "Canvas_9",
+			"_title" : "Canvas_9",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 214, 402, 394, 484 ],
+			"_nodespace.idx" : 9,
+			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_10" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 10,
+			"_name" : "Canvas_10",
+			"_title" : "Canvas_10",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 399, 405, 579, 487 ],
+			"_nodespace.idx" : 10,
+			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_11" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 11,
+			"_name" : "Canvas_11",
+			"_title" : "Canvas_11",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 584, 407, 764, 489 ],
+			"_nodespace.idx" : 11,
+			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_12" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 12,
+			"_name" : "Canvas_12",
+			"_title" : "Canvas_12",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 766, 407, 946, 489 ],
+			"_nodespace.idx" : 12,
+			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_3" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "Canvas_3",
+			"_title" : "Canvas_3",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 13, 401, 193, 483 ],
+			"_nodespace.idx" : 3,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_13" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 13,
+			"_name" : "Canvas_13",
+			"_title" : "Canvas_13",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 199, 402, 379, 484 ],
+			"_nodespace.idx" : 13,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_14" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 14,
+			"_name" : "Canvas_14",
+			"_title" : "Canvas_14",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 386, 403, 566, 485 ],
+			"_nodespace.idx" : 14,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_15" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 15,
+			"_name" : "Canvas_15",
+			"_title" : "Canvas_15",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 571, 404, 751, 486 ],
+			"_nodespace.idx" : 15,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"Canvas_16" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 16,
+			"_name" : "Canvas_16",
+			"_title" : "Canvas_16",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 756, 405, 936, 487 ],
+			"_nodespace.idx" : 16,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"SceneCamera" : 	{
+		"SceneCamera_1" : 		{
+			"_type" : "SceneCamera",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "SceneCamera_1",
+			"_title" : "SceneCamera_1",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 427, 204, 607, 362 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "SceneCamera"
+	}
+,
+	"TextureProjection" : 	{
+		"TextureProjection_1" : 		{
+			"_type" : "TextureProjection",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "TextureProjection_1",
+			"_title" : "TextureProjection_1",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 233, 195, 413, 292 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "TextureProjection"
+	}
+,
+	"Model" : 	{
+		"_type" : "Model"
+	}
+,
+	"TfmNode" : 	{
+		"_type" : "TfmNode",
+		"TfmNode_2" : 		{
+			"_type" : "TfmNode",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "TfmNode_2",
+			"_title" : "CameraProject",
+			"_nodespace" : "root::2",
+			"_level" : 1,
+			"_rect" : [ 428, 51, 608, 182 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"TfmNode_3" : 		{
+			"_type" : "TfmNode",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "TfmNode_3",
+			"_title" : "BoxMapCenter",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 501, 83, 681, 214 ],
+			"_nodespace.idx" : 3,
+			"_connection_0" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"BoxMapCamera" : 	{
+		"BoxMapCamera_1" : 		{
+			"_type" : "BoxMapCamera",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "BoxMapCamera_1",
+			"_title" : "BoxMapCamera_1",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 288, 80, 468, 201 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "BoxMapCamera",
+		"BoxMapCamera_2" : 		{
+			"_type" : "BoxMapCamera",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "BoxMapCamera_2",
+			"_title" : "RayMarchCamera",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 359, 204, 539, 325 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+
+	}
+,
+	"BoxMapCapture" : 	{
+		"BoxMapCapture_1" : 		{
+			"_type" : "BoxMapCapture",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "BoxMapCapture_1",
+			"_title" : "BoxMapCapture_1",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 286, 209, 466, 390 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "BoxMapCapture"
+	}
+,
+	"BoxMapProjection" : 	{
+		"BoxMapProjection_1" : 		{
+			"_type" : "BoxMapProjection",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "BoxMapProjection_1",
+			"_title" : "BoxMapProjection_1",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 289, 410, 469, 508 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "BoxMapCapture_1", 7, "boxmap", 2, "boxmap", -1 ],
+			"_connection_1" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "BoxMapProjection"
+	}
+,
+	"Monitor" : 	{
+		"_type" : "Monitor"
+	}
+,
+	"RayMarcher" : 	{
+		"RayMarcher_1" : 		{
+			"_type" : "RayMarcher",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "RayMarcher_1",
+			"_title" : "RayMarcher_1",
+			"_nodespace" : "root::4",
+			"_level" : 1,
+			"_rect" : [ 355, 110, 535, 212 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "sub-inlet_4", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "RayMarcher"
+	}
+,
+	"Light" : 	{
+		"_type" : "Light"
+	}
+,
+	"QueScript" : 	{
+		"_type" : "QueScript",
+		"QueScript_1" : 		{
+			"_type" : "QueScript",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "QueScript_1",
+			"_title" : "QueScript_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 47, 281, 227, 380 ],
+			"_nodespace.idx" : 1
+		}
+
+	}
+,
+	"TextureStitcher" : 	{
+		"TextureStitcher_1" : 		{
+			"_type" : "TextureStitcher",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "TextureStitcher_1",
+			"_title" : "TextureStitcher_1",
+			"_nodespace" : "root::3",
+			"_level" : 1,
+			"_rect" : [ 503, 389, 683, 451 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "BoxMapCapture_1", 8, "texture", 8, "texture", 1 ],
+			"_connection_1" : [ "sub-inlet_3", 2, "properties", 1, "properties", -1 ]
+		}
+,
+		"_type" : "TextureStitcher"
+	}
+
+}

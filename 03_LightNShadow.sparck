@@ -1,0 +1,159 @@
+{
+	"_enable" : 1,
+	"Model" : 	{
+		"Model_1" : 		{
+			"_type" : "Model",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Model_1",
+			"_title" : "Drone",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 17, 37, 197, 119 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Model"
+	}
+,
+	"Material" : 	{
+		"Material_1" : 		{
+			"_type" : "Material",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Material_1",
+			"_title" : "DroneMaterial",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 20, 127, 200, 195 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Material",
+		"Material_2" : 		{
+			"_type" : "Material",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Material_2",
+			"_title" : "BGMaterial",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 207, 126, 387, 194 ],
+			"_nodespace.idx" : 2
+		}
+
+	}
+,
+	"Light" : 	{
+		"Light_1" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Light_1",
+			"_title" : "Light_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 397, 38, 577, 99 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Light",
+		"Light_2" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Light_2",
+			"_title" : "Light_2",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 587, 175, 767, 236 ],
+			"_nodespace.idx" : 2
+		}
+,
+		"Light_3" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "Light_3",
+			"_title" : "Light_3",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 396, 128, 576, 189 ],
+			"_nodespace.idx" : 3
+		}
+
+	}
+,
+	"QueScript" : 	{
+		"QueScript_1" : 		{
+			"_type" : "QueScript",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "QueScript_1",
+			"_title" : "QueScript_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 20, 215, 200, 314 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "QueScript"
+	}
+,
+	"TfmNode" : 	{
+		"TfmNode_1" : 		{
+			"_type" : "TfmNode",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "TfmNode_1",
+			"_title" : "Light2_TFM",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 586, 38, 766, 169 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "TfmNode"
+	}
+,
+	"Shape" : 	{
+		"Shape_1" : 		{
+			"_type" : "Shape",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Shape_1",
+			"_title" : "GroundPlane",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 207, 38, 387, 120 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Shape",
+		"Shape_2" : 		{
+			"_type" : "Shape",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Shape_2",
+			"_title" : "Sphere",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 212, 219, 392, 301 ],
+			"_nodespace.idx" : 2
+		}
+,
+		"Shape_3" : 		{
+			"_type" : "Shape",
+			"_version" : 1,
+			"_id" : 3,
+			"_name" : "Shape_3",
+			"_title" : "Torus",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 215, 307, 395, 389 ],
+			"_nodespace.idx" : 3
+		}
+
+	}
+
+}

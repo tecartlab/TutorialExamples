@@ -1,0 +1,449 @@
+{
+	"_slotspot" : 0,
+	"bs_gui_win_workspace_WorkSpace" : 	{
+		"_type" : "workspace",
+		"Main" : 		{
+			"_rect" : [ 870, 130, 1136, 695 ],
+			"_visible" : 1
+		}
+
+	}
+,
+	"bs_gui_win_MeshWarp_1_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_workspace_subnode_1" : 	{
+		"_type" : "workspace",
+		"Main" : 		{
+			"_rect" : [ 437, 265, 1402, 648 ],
+			"_visible" : 0
+		}
+
+	}
+,
+	"_storenames" : "Main",
+	"bs_gui_win_MeshWarp_2_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Video_1_P_Moovie" : 	{
+		"_pin" : 0,
+		"_type" : "Moovie",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_MeshWarp_3_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_MeshWarp_4_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_MeshWarp_5_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_workspace_subnode_2" : 	{
+		"_type" : "workspace",
+		"Main" : 		{
+			"_rect" : [ 465, 132, 1406, 695 ],
+			"_visible" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_1_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_SceneCamera_1_P_Camera" : 	{
+		"_pin" : 0,
+		"_type" : "Camera",
+		"_slotsize" : 22,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Model_1_P_Model" : 	{
+		"_pin" : 0,
+		"_type" : "Model",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_workspace_subnode_3" : 	{
+		"_type" : "workspace",
+		"Main" : 		{
+			"_rect" : [ 550, 131, 1380, 694 ],
+			"_visible" : 0
+		}
+
+	}
+,
+	"bs_gui_win_BoxMapCamera_1_P_Camera" : 	{
+		"_pin" : 0,
+		"_type" : "Camera",
+		"_slotsize" : 22,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Model_2_P_Model" : 	{
+		"_pin" : 0,
+		"_type" : "Model",
+		"_slotsize" : 45
+	}
+,
+	"bs_gui_win_SquishedLense_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_workspace_subnode_4" : 	{
+		"_type" : "workspace",
+		"Main" : 		{
+			"_rect" : [ 464, 132, 1440, 695 ],
+			"_visible" : 0
+		}
+
+	}
+,
+	"bs_gui_win_RayMarchCanvas_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_RayMarchCamera_P_Camera" : 	{
+		"_pin" : 0,
+		"_type" : "Camera",
+		"_slotsize" : 22,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Model_3_P_Model" : 	{
+		"_pin" : 0,
+		"_type" : "Model",
+		"_slotsize" : 45
+	}
+,
+	"bs_gui_win_Model_4_P_Model" : 	{
+		"_pin" : 0,
+		"_type" : "Model",
+		"_slotsize" : 45
+	}
+,
+	"bs_gui_win_Light_1_P_Light" : 	{
+		"_pin" : 0,
+		"_type" : "Light",
+		"_slotsize" : 65
+	}
+,
+	"bs_gui_win_Canvas_4_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_5_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_6_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_7_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_8_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_9_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_10_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_11_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_12_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_QueScript_1_PB_ProgressBar" : 	{
+		"_pin" : 0,
+		"_type" : "ProgressBar",
+		"_slotsize" : 25,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_QueScript_1_P_Script" : 	{
+		"_pin" : 0,
+		"_type" : "Script",
+		"_slotsize" : 25,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_TextureProjVideo_P_Moovie" : 	{
+		"_pin" : 0,
+		"_type" : "Moovie",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_QueScript_PB_ProgressBar" : 	{
+		"_pin" : 0,
+		"_type" : "ProgressBar",
+		"_slotsize" : 25
+	}
+,
+	"bs_gui_win_QueScript_P_Script" : 	{
+		"_pin" : 0,
+		"_type" : "Script",
+		"_slotsize" : 25
+	}
+,
+	"bs_gui_win_ViewPort_1_P_Viewport" : 	{
+		"_pin" : 0,
+		"_type" : "Viewport",
+		"_slotsize" : 65
+	}
+,
+	"bs_gui_win_Canvas_3_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_13_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_14_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_15_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Canvas_16_P_Canvas" : 	{
+		"_pin" : 0,
+		"_type" : "Canvas",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Grid_1_P_Model" : 	{
+		"_pin" : 0,
+		"_type" : "Model",
+		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_BoxMaps_P_Viewport" : 	{
+		"_pin" : 0,
+		"_type" : "Viewport",
+		"_slotsize" : 65
+	}
+,
+	"bs_gui_win_RayMarcher_1_P_Camera" : 	{
+		"_pin" : 0,
+		"_type" : "Camera",
+		"_slotsize" : 22,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+
+}
