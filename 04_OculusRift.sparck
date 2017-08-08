@@ -27,8 +27,8 @@
 			"_level" : 0,
 			"_rect" : [ 230, 137, 410, 242 ],
 			"_nodespace.idx" : 1,
-			"_connection_0" : [ "SceneCapture_1", 4, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "SceneCapture_1", 7, "texture", 3, "texture", 1 ]
+			"_connection_0" : [ "SceneCapture_1", 4, "texture", 3, "texture", 1 ],
+			"_connection_1" : [ "SceneCapture_1", 2, "texture", 2, "texture", 1 ]
 		}
 ,
 		"_type" : "OculusRift"

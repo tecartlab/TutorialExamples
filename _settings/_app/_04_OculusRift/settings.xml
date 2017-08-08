@@ -370,7 +370,7 @@
 					<pattr name = "positionX" value = "0." />
 					<pattr name = "positionY" value = "0." />
 					<pattr name = "positionZ" value = "0." />
-					<pattr name = "rotationX" value = "0." />
+					<pattr name = "rotationX" value = "90." />
 					<pattr name = "rotationY" value = "0." />
 					<pattr name = "rotationZ" value = "0." />
 					<pattr name = "scale" value = "1." />
@@ -378,7 +378,7 @@
 					<pattr name = "useTime" value = "1" />
 				</patcher>
 				<patcher name = "shader">
-					<pattr name = "fileName" value = "ray.roadToHell.jxs" />
+					<pattr name = "fileName" value = "ray.mountain.jxs" />
 				</patcher>
 				<pattr name = "enable" value = "1" />
 				<patcher name = "vpl_nodelogic">
