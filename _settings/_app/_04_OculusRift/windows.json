@@ -111,7 +111,7 @@
 		"_type" : "Camera",
 		"_slotsize" : 22,
 		"Main" : 		{
-			"_visible" : 0,
+			"_visible" : 1,
 			"_slotted" : 0
 		}
 
