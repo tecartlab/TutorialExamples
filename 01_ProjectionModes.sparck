@@ -146,7 +146,7 @@
 			"_title" : "sub-inlet_1",
 			"_nodespace" : "root::1",
 			"_level" : 1,
-			"_rect" : [ 20, 40, 230, 72 ],
+			"_rect" : [ 20, 40, 230, 84 ],
 			"_nodespace.idx" : 1
 		}
 ,
@@ -159,7 +159,7 @@
 			"_title" : "sub-inlet_2",
 			"_nodespace" : "root::2",
 			"_level" : 1,
-			"_rect" : [ 37, 47, 247, 79 ],
+			"_rect" : [ 37, 47, 247, 91 ],
 			"_nodespace.idx" : 2
 		}
 ,
@@ -171,7 +171,7 @@
 			"_title" : "sub-inlet_3",
 			"_nodespace" : "root::3",
 			"_level" : 1,
-			"_rect" : [ 40, 29, 250, 61 ],
+			"_rect" : [ 40, 29, 250, 73 ],
 			"_nodespace.idx" : 3
 		}
 ,
@@ -183,7 +183,7 @@
 			"_title" : "sub-inlet_4",
 			"_nodespace" : "root::4",
 			"_level" : 1,
-			"_rect" : [ 78, 51, 288, 83 ],
+			"_rect" : [ 78, 51, 288, 95 ],
 			"_nodespace.idx" : 4
 		}
 
