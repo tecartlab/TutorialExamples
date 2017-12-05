@@ -1,0 +1,159 @@
+{
+	"_enable" : 1,
+	"Grid" : 	{
+		"Grid_1" : 		{
+			"_type" : "Grid",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Grid_1",
+			"_title" : "Grid_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 31, 44, 211, 144 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Grid"
+	}
+,
+	"OculusRift" : 	{
+		"_type" : "OculusRift"
+	}
+,
+	"SceneCapture" : 	{
+		"_type" : "SceneCapture",
+		"SceneCapture_1" : 		{
+			"_type" : "SceneCapture",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "SceneCapture_1",
+			"_title" : "SceneCapture_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 230, 43, 410, 124 ],
+			"_nodespace.idx" : 1
+		}
+
+	}
+,
+	"Window" : 	{
+		"Window_1" : 		{
+			"_type" : "Window",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Window_1",
+			"_title" : "Window_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 32, 153, 212, 275 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Window"
+	}
+,
+	"ViewPort" : 	{
+		"_type" : "ViewPort",
+		"ViewPort_2" : 		{
+			"_type" : "ViewPort",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "ViewPort_2",
+			"_title" : "ViewPort_2",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 225, 261, 405, 338 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "HtcVive_1", 2, "texture", 2, "texture", 1 ]
+		}
+
+	}
+,
+	"Canvas" : 	{
+		"Canvas_1" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Canvas_1",
+			"_title" : "Canvas_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 422, 253, 602, 335 ],
+			"_nodespace.idx" : 1
+		}
+,
+		"_type" : "Canvas",
+		"Canvas_2" : 		{
+			"_type" : "Canvas",
+			"_version" : 1,
+			"_id" : 2,
+			"_name" : "Canvas_2",
+			"_title" : "Canvas_2",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 610, 251, 790, 333 ],
+			"_nodespace.idx" : 2,
+			"_connection_0" : [ "Video_1", 2, "texture", 2, "texture", 1 ]
+		}
+
+	}
+,
+	"Video" : 	{
+		"_type" : "Video",
+		"Video_1" : 		{
+			"_type" : "Video",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "Video_1",
+			"_title" : "Video_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 610, 140, 790, 222 ],
+			"_nodespace.idx" : 1
+		}
+
+	}
+,
+	"RayMarcher" : 	{
+		"_type" : "RayMarcher",
+		"RayMarcher_1" : 		{
+			"_type" : "RayMarcher",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "RayMarcher_1",
+			"_title" : "RayMarcher_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 423, 138, 603, 240 ],
+			"_nodespace.idx" : 1
+		}
+
+	}
+,
+	"BoxMapCamera" : 	{
+		"_type" : "BoxMapCamera"
+	}
+,
+	"Model" : 	{
+		"_type" : "Model"
+	}
+,
+	"HtcVive" : 	{
+		"HtcVive_1" : 		{
+			"_type" : "HtcVive",
+			"_version" : 1,
+			"_id" : 1,
+			"_name" : "HtcVive_1",
+			"_title" : "HtcVive_1",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 225, 138, 405, 243 ],
+			"_nodespace.idx" : 1,
+			"_connection_0" : [ "SceneCapture_1", 2, "texture", 2, "texture", 1 ],
+			"_connection_1" : [ "SceneCapture_1", 4, "texture", 3, "texture", 1 ]
+		}
+,
+		"_type" : "HtcVive"
+	}
+
+}
