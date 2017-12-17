@@ -88,7 +88,7 @@
 	"bs_gui_win_workspace_subnode_2" : 	{
 		"_type" : "workspace",
 		"Main" : 		{
-			"_rect" : [ 465, 132, 1406, 695 ],
+			"_rect" : [ 440, 389, 1381, 952 ],
 			"_visible" : 0
 		}
 
@@ -439,6 +439,17 @@
 		"_pin" : 0,
 		"_type" : "Camera",
 		"_slotsize" : 22,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_TextureProjection_1_P_Light" : 	{
+		"_pin" : 0,
+		"_type" : "Light",
+		"_slotsize" : 65,
 		"Main" : 		{
 			"_visible" : 0,
 			"_slotted" : 0

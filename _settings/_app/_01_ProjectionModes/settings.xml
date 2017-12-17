@@ -41,36 +41,25 @@
 					</patcher>
 				</patcher>
 			</patcher>
-			<patcher name = "Grid_1">
+			<patcher name = "QueScript_1">
 				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Grid_1" />
-				</patcher>
-				<patcher name = "renderGroup">
-					<pattr name = "groupOne" value = "0 0 0" />
-					<pattr name = "groupShady" value = "0 0 0" />
-					<pattr name = "groupStage" value = "0 0 1" />
-					<pattr name = "groupTwo" value = "0 0 0" />
+					<pattr name = "vpl_titleEdit" value = "QueScript_1" />
 				</patcher>
 				<patcher name = "property">
-					<pattr name = "layer" value = "10" />
-					<pattr name = "positionX" value = "-4.26" />
-					<pattr name = "positionY" value = "-3.9" />
-					<pattr name = "positionZ" value = "-1.01" />
-					<pattr name = "publishTfm" value = "0" />
-					<pattr name = "rotationX" value = "0." />
-					<pattr name = "rotationY" value = "0." />
-					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "4.4" />
-					<pattr name = "scaleY" value = "4.4" />
-					<pattr name = "scaleZ" value = "4.4" />
-					<pattr name = "showAxis" value = "1" />
+					<patcher name = "oscSendNode">
+						<pattr name = "address" value = "select..." />
+					</patcher>
+					<pattr name = "autostart" value = "1" />
+					<pattr name = "debug" value = "0" />
+					<pattr name = "editor" value = "TextWrangler" />
+					<pattr name = "fileWatch" value = "1" />
+					<pattr name = "update_mode" value = "automatic" />
+					<pattr name = "updatefreq" value = "1" />
 				</patcher>
-				<patcher name = "transformnode">
-					<pattr name = "address" value = "select..." />
+				<patcher name = "script">
+					<pattr name = "fileName" value = "01_ProjectionModes.que" />
 				</patcher>
 				<pattr name = "enable" value = "1" />
-				<pattr name = "gridsizeX" value = "0.5" />
-				<pattr name = "gridsizeY" value = "0.5" />
 			</patcher>
 			<patcher name = "UVProjection">
 				<patcher name = "node_workspace">
@@ -372,7 +361,7 @@
 					</patcher>
 					<patcher name = "sub-inlet_1">
 						<patcher name = "bs.vpl.util.node">
-							<pattr name = "u611047138" value = "" />
+							<pattr name = "u467038239" value = "" />
 						</patcher>
 					</patcher>
 					<patcher name = "Video_1">
@@ -424,7 +413,7 @@
 						<pattr name = "positionZ" value = "0." />
 						<pattr name = "rotationX" value = "0." />
 						<pattr name = "rotationY" value = "0." />
-						<pattr name = "rotationZ" value = "-76.32" />
+						<pattr name = "rotationZ" value = "-0.504" />
 						<pattr name = "scaleX" value = "1." />
 						<pattr name = "scaleY" value = "1." />
 						<pattr name = "scaleZ" value = "1." />
@@ -455,16 +444,21 @@
 					<patcher name = "SceneCamera_1">
 						<pattr name = "adapt" value = "0" />
 						<pattr name = "adaptReference" value = "0." />
+						<pattr name = "bottomFrustum" value = "-0.05" />
 						<pattr name = "enable" value = "1" />
 						<pattr name = "farFrustum" value = "6." />
-						<pattr name = "fov" value = "15.6" />
+						<pattr name = "fov" value = "15.24" />
+						<pattr name = "leftFrustum" value = "-0.05" />
 						<pattr name = "nearFrustum" value = "0.1" />
 						<pattr name = "onstage" value = "1" />
+						<pattr name = "optics" value = "fov" />
 						<pattr name = "projectionMode" value = "0" />
 						<pattr name = "ratio" value = "1.74" />
+						<pattr name = "rightFrustum" value = "0.05" />
 						<pattr name = "rotation" value = "0." />
 						<pattr name = "spread" value = "0." />
 						<pattr name = "stereo" value = "0" />
+						<pattr name = "topFrustum" value = "0.05" />
 						<patcher name = "vpl_nodelogic">
 							<pattr name = "vpl_titleEdit" value = "SceneCamera_1" />
 						</patcher>
@@ -780,7 +774,7 @@
 					</patcher>
 					<patcher name = "sub-inlet_2">
 						<patcher name = "bs.vpl.util.node">
-							<pattr name = "u146042650" value = "" />
+							<pattr name = "u533023363" value = "" />
 						</patcher>
 					</patcher>
 					<patcher name = "TextureProjVideo">
@@ -807,7 +801,7 @@
 							<pattr name = "vol" value = "0." />
 						</patcher>
 						<patcher name = "video">
-							<pattr name = "fileName" value = "01/AbstractBlueStreaks.mp4" />
+							<pattr name = "fileName" value = "01/LiquidWater.mp4" />
 						</patcher>
 					</patcher>
 					<patcher name = "nodeSelector">
@@ -911,7 +905,7 @@
 						<pattr name = "enable" value = "1" />
 						<pattr name = "positionX" value = "-4.29" />
 						<pattr name = "positionY" value = "-4.68" />
-						<pattr name = "positionZ" value = "0.518027" />
+						<pattr name = "positionZ" value = "-0.614561" />
 						<pattr name = "rotationX" value = "0." />
 						<pattr name = "rotationY" value = "0." />
 						<pattr name = "rotationZ" value = "0." />
@@ -986,7 +980,7 @@
 					</patcher>
 					<patcher name = "sub-inlet_3">
 						<patcher name = "bs.vpl.util.node">
-							<pattr name = "u676041606" value = "" />
+							<pattr name = "u852002063" value = "" />
 						</patcher>
 					</patcher>
 					<patcher name = "ViewPort_1">
@@ -1431,7 +1425,7 @@
 					</patcher>
 					<patcher name = "sub-inlet_4">
 						<patcher name = "bs.vpl.util.node">
-							<pattr name = "u739027477" value = "" />
+							<pattr name = "u860009904" value = "" />
 						</patcher>
 					</patcher>
 					<patcher name = "nodeSelector">
@@ -1446,24 +1440,35 @@
 					<pattr name = "vpl_titleEdit" value = "RayMarchProjection" />
 				</patcher>
 			</patcher>
-			<patcher name = "QueScript_1">
+			<patcher name = "Grid_1">
 				<pattr name = "enable" value = "1" />
+				<pattr name = "gridsizeX" value = "0.5" />
+				<pattr name = "gridsizeY" value = "0.5" />
 				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "QueScript_1" />
+					<pattr name = "vpl_titleEdit" value = "Grid_1" />
+				</patcher>
+				<patcher name = "renderGroup">
+					<pattr name = "groupOne" value = "0 0 0" />
+					<pattr name = "groupShady" value = "0 0 0" />
+					<pattr name = "groupStage" value = "0 0 1" />
+					<pattr name = "groupTwo" value = "0 0 0" />
 				</patcher>
 				<patcher name = "property">
-					<pattr name = "autostart" value = "1" />
-					<pattr name = "debug" value = "0" />
-					<pattr name = "editor" value = "TextWrangler" />
-					<pattr name = "fileWatch" value = "1" />
-					<pattr name = "update_mode" value = "automatic" />
-					<pattr name = "updatefreq" value = "1" />
-					<patcher name = "oscSendNode">
-						<pattr name = "address" value = "select..." />
-					</patcher>
+					<pattr name = "layer" value = "10" />
+					<pattr name = "positionX" value = "-4.26" />
+					<pattr name = "positionY" value = "-3.9" />
+					<pattr name = "positionZ" value = "-1.01" />
+					<pattr name = "publishTfm" value = "0" />
+					<pattr name = "rotationX" value = "0." />
+					<pattr name = "rotationY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "4.4" />
+					<pattr name = "scaleY" value = "4.4" />
+					<pattr name = "scaleZ" value = "4.4" />
+					<pattr name = "showAxis" value = "1" />
 				</patcher>
-				<patcher name = "script">
-					<pattr name = "fileName" value = "01_ProjectionModes.que" />
+				<patcher name = "transformnode">
+					<pattr name = "address" value = "select..." />
 				</patcher>
 			</patcher>
 		</patcher>

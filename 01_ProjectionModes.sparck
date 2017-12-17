@@ -44,7 +44,7 @@
 			"_title" : "TextureProjVideo",
 			"_nodespace" : "root::2",
 			"_level" : 1,
-			"_rect" : [ 36, 199, 216, 281 ],
+			"_rect" : [ 35, 135, 215, 217 ],
 			"_nodespace.idx" : 2,
 			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
@@ -291,8 +291,7 @@
 			"_level" : 1,
 			"_rect" : [ 25, 398, 205, 480 ],
 			"_nodespace.idx" : 1,
-			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
 ,
 		"Canvas_9" : 		{
@@ -305,8 +304,7 @@
 			"_level" : 1,
 			"_rect" : [ 214, 402, 394, 484 ],
 			"_nodespace.idx" : 9,
-			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
 ,
 		"Canvas_10" : 		{
@@ -319,8 +317,7 @@
 			"_level" : 1,
 			"_rect" : [ 399, 405, 579, 487 ],
 			"_nodespace.idx" : 10,
-			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
 ,
 		"Canvas_11" : 		{
@@ -333,8 +330,7 @@
 			"_level" : 1,
 			"_rect" : [ 584, 407, 764, 489 ],
 			"_nodespace.idx" : 11,
-			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
 ,
 		"Canvas_12" : 		{
@@ -347,8 +343,7 @@
 			"_level" : 1,
 			"_rect" : [ 766, 407, 946, 489 ],
 			"_nodespace.idx" : 12,
-			"_connection_0" : [ "Video_2", 2, "texture", 2, "texture", 1 ],
-			"_connection_1" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
 ,
 		"Canvas_3" : 		{
@@ -427,7 +422,7 @@
 			"_title" : "SceneCamera_1",
 			"_nodespace" : "root::2",
 			"_level" : 1,
-			"_rect" : [ 427, 204, 607, 362 ],
+			"_rect" : [ 427, 204, 607, 388 ],
 			"_nodespace.idx" : 1,
 			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
 		}
@@ -444,9 +439,10 @@
 			"_title" : "TextureProjection_1",
 			"_nodespace" : "root::2",
 			"_level" : 1,
-			"_rect" : [ 233, 195, 413, 292 ],
+			"_rect" : [ 223, 252, 403, 349 ],
 			"_nodespace.idx" : 1,
-			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ]
+			"_connection_0" : [ "sub-inlet_2", 2, "properties", 1, "properties", -1 ],
+			"_connection_1" : [ "Video_2", 2, "texture", 2, "texture", 1 ]
 		}
 ,
 		"_type" : "TextureProjection"
