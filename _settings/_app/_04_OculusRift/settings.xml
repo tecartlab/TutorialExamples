@@ -177,7 +177,7 @@
 			<patcher name = "ViewPort_2">
 				<patcher name = "property">
 					<patcher name = "warpSelection">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 					<patcher name = "warpingModel">
 						<pattr name = "fileName" value = "select..." />
@@ -363,7 +363,7 @@
 				</patcher>
 				<patcher name = "bs.node.camera.stereo.properties">
 					<patcher name = "cameraSelection">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 					<pattr name = "editor" value = "Brackets" />
 					<pattr name = "fileWatch" value = "1" />

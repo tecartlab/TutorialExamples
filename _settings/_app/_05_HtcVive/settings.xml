@@ -89,7 +89,7 @@
 					<pattr name = "speed" value = "1." />
 					<pattr name = "useTime" value = "1" />
 					<patcher name = "cameraSelection">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 				</patcher>
 				<patcher name = "camera0">
@@ -275,7 +275,7 @@
 						<pattr name = "fileName" value = "select..." />
 					</patcher>
 					<patcher name = "warpSelection">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 				</patcher>
 			</patcher>

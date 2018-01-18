@@ -47,7 +47,7 @@
 				</patcher>
 				<patcher name = "property">
 					<patcher name = "oscSendNode">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 					<pattr name = "autostart" value = "1" />
 					<pattr name = "debug" value = "0" />
@@ -110,7 +110,7 @@
 								<pattr name = "groupTwo" value = "0 0 0" />
 							</patcher>
 							<patcher name = "shader">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "color">
 								<pattr name = "alpha" value = "1." />
@@ -120,7 +120,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_7">
@@ -169,7 +169,7 @@
 								<pattr name = "groupTwo" value = "0 0 0" />
 							</patcher>
 							<patcher name = "shader">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "color">
 								<pattr name = "alpha" value = "1." />
@@ -179,7 +179,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_6">
@@ -228,7 +228,7 @@
 								<pattr name = "groupTwo" value = "0 0 0" />
 							</patcher>
 							<patcher name = "shader">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "color">
 								<pattr name = "alpha" value = "1." />
@@ -238,7 +238,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_5">
@@ -287,7 +287,7 @@
 								<pattr name = "groupTwo" value = "0 0 0" />
 							</patcher>
 							<patcher name = "shader">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "color">
 								<pattr name = "alpha" value = "1." />
@@ -297,7 +297,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_4">
@@ -346,7 +346,7 @@
 								<pattr name = "groupTwo" value = "0 0 0" />
 							</patcher>
 							<patcher name = "shader">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "color">
 								<pattr name = "alpha" value = "1." />
@@ -356,7 +356,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "sub-inlet_1">
@@ -533,7 +533,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_11">
@@ -592,7 +592,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_10">
@@ -651,7 +651,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_9">
@@ -710,7 +710,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_1">
@@ -769,7 +769,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "sub-inlet_2">
@@ -1011,13 +1011,13 @@
 								<pattr name = "red" value = "1." />
 							</patcher>
 							<patcher name = "effect">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 							<patcher name = "warpingModel">
 								<pattr name = "fileName" value = "select..." />
 							</patcher>
 							<patcher name = "warpSelection">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 						</patcher>
 					</patcher>
@@ -1092,7 +1092,7 @@
 							<pattr name = "speed" value = "1." />
 							<pattr name = "useTime" value = "1" />
 							<patcher name = "cameraSelection">
-								<pattr name = "address" value = "select..." />
+								<pattr name = "address" value = "&lt;none&gt;" />
 							</patcher>
 						</patcher>
 						<patcher name = "camera0">
@@ -1184,7 +1184,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_15">
@@ -1243,7 +1243,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_14">
@@ -1302,7 +1302,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_13">
@@ -1361,7 +1361,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "Canvas_3">
@@ -1420,7 +1420,7 @@
 							</patcher>
 						</patcher>
 						<patcher name = "transformnode">
-							<pattr name = "address" value = "select..." />
+							<pattr name = "address" value = "&lt;none&gt;" />
 						</patcher>
 					</patcher>
 					<patcher name = "sub-inlet_4">
@@ -1468,7 +1468,7 @@
 					<pattr name = "showAxis" value = "1" />
 				</patcher>
 				<patcher name = "transformnode">
-					<pattr name = "address" value = "select..." />
+					<pattr name = "address" value = "&lt;none&gt;" />
 				</patcher>
 			</patcher>
 		</patcher>

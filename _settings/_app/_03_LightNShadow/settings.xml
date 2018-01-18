@@ -137,7 +137,7 @@
 						<pattr name = "red" value = "1." />
 					</patcher>
 					<patcher name = "shader">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 				</patcher>
 				<patcher name = "transformnode">
@@ -220,7 +220,7 @@
 						<pattr name = "red" value = "1." />
 					</patcher>
 					<patcher name = "shader">
-						<pattr name = "address" value = "select..." />
+						<pattr name = "address" value = "&lt;none&gt;" />
 					</patcher>
 				</patcher>
 				<patcher name = "transformnode">
