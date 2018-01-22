@@ -3,7 +3,7 @@
 <pattrstorage name = "calibration">
 	<slot number = "1">
 		<pattr name = "_toggleEditor" value = "0" />
-		<pattr name = "mainMetro" value = "&quot;20 hz&quot;" />
+		<pattr name = "mainMetro" value = "&quot;15 hz&quot;" />
 		<pattr name = "mainSwitch" value = "1" />
 		<patcher name = "_windowSlide">
 			<pattr name = "showSettings" value = "1" />
@@ -12,13 +12,13 @@
 			<pattr name = "_drawtocontext" value = "0" />
 			<pattr name = "_enable" value = "1" />
 			<patcher name = "_orbiter">
-				<pattr name = "orbitOnePosition" value = "position 0. 0. 0." />
-				<pattr name = "orbitOneQuat" value = "quat 0. 0. 0.852619 -0.522484" />
-				<pattr name = "orbitThreePosition" value = "position 0. 0. 2.05" />
-				<pattr name = "orbitTwoQuat" value = "quat 0.398734 0. 0. 0.917024" />
+				<pattr name = "orbitOnePosition" value = "position 0.128121 -0.722447 0.455523" />
+				<pattr name = "orbitOneQuat" value = "quat 0. 0. -0.902588 0.430513" />
+				<pattr name = "orbitThreePosition" value = "position 0. 0. 4.1" />
+				<pattr name = "orbitTwoQuat" value = "quat 0.537301 0. 0. 0.843393" />
 			</patcher>
 			<patcher name = "_setgroupstage">
-				<pattr name = "groupOne" value = "0 0 0" />
+				<pattr name = "groupOne" value = "0 0 1" />
 				<pattr name = "groupStage" value = "0 0 1" />
 				<pattr name = "groupTwo" value = "0 0 0" />
 			</patcher>
@@ -27,9 +27,9 @@
 			</patcher>
 			<patcher name = "_storePosition">
 				<pattr name = "lowerRightDeskopX" value = "545" />
-				<pattr name = "lowerRightDesktopY" value = "630" />
-				<pattr name = "upperLeftDesktopX" value = "5" />
-				<pattr name = "upperLeftDesktopY" value = "48" />
+				<pattr name = "lowerRightDesktopY" value = "664" />
+				<pattr name = "upperLeftDesktopX" value = "111" />
+				<pattr name = "upperLeftDesktopY" value = "61" />
 			</patcher>
 		</patcher>
 		<patcher name = "node_workspace">
@@ -41,224 +41,48 @@
 					</patcher>
 				</patcher>
 			</patcher>
-			<patcher name = "Light_1">
-				<pattr name = "enable" value = "1" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Light_1" />
-				</patcher>
-				<patcher name = "property">
-					<pattr name = "attenuationConst" value = "0.2" />
-					<pattr name = "attenuationLinear" value = "0." />
-					<pattr name = "attenuationQuad" value = "0." />
-					<pattr name = "captureshadow" value = "0" />
-					<pattr name = "lightsize_onstage" value = "0.2" />
-					<pattr name = "onstage[1]" value = "1" />
-					<pattr name = "publishTfm" value = "0" />
-					<pattr name = "renderpass" value = "0" />
-					<pattr name = "shadowblur" value = "0.2" />
-					<pattr name = "shadowquality" value = "lo" />
-					<pattr name = "shadowrange" value = "50." />
-					<pattr name = "shadows" value = "0" />
-					<pattr name = "spotAngle" value = "50." />
-					<pattr name = "spotFallOff" value = "1." />
-					<pattr name = "spotType" value = "spot" />
-					<pattr name = "transformPosX" value = "-0.18" />
-					<pattr name = "transformPosY" value = "0." />
-					<pattr name = "transformPosZ" value = "0.34" />
-					<pattr name = "transformRotX" value = "-3." />
-					<pattr name = "transformRotY" value = "-52." />
-					<pattr name = "transformRotZ" value = "0." />
-					<patcher name = "diffuse">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "specular">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "ambient">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0." />
-						<pattr name = "green" value = "0." />
-						<pattr name = "red" value = "0." />
-					</patcher>
-					<patcher name = "renderGroup">
-						<pattr name = "groupOne" value = "0 0 1" />
-						<pattr name = "groupShady" value = "0 0 0" />
-						<pattr name = "groupStage" value = "0 0 1" />
-						<pattr name = "groupTwo" value = "0 0 0" />
-					</patcher>
-				</patcher>
+			<patcher name = "Grid_1">
 				<patcher name = "transformnode">
 					<pattr name = "address" value = "&lt;none&gt;" />
 				</patcher>
-			</patcher>
-			<patcher name = "Material_1">
-				<pattr name = "enable" value = "1" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Material_1" />
-				</patcher>
-				<patcher name = "matrial">
-					<pattr name = "fileName" value = "Drone/Drone.jitmtl" />
-				</patcher>
 				<patcher name = "property">
-					<pattr name = "darkness" value = "0." />
-					<pattr name = "diffuse_model" value = "toon" />
-					<pattr name = "diffuse_size" value = "0.705" />
-					<pattr name = "diffuse_smooth" value = "0.127" />
-					<pattr name = "fog" value = "none" />
-					<pattr name = "fog_density" value = "1." />
-					<pattr name = "fog_range_max" value = "100." />
-					<pattr name = "fog_range_min" value = "1." />
-					<pattr name = "lighting_enable" value = "0" />
-					<pattr name = "roughness" value = "0.09" />
-					<pattr name = "shadow_caster" value = "0" />
-					<pattr name = "shadow_eps[3]" value = "0.3" />
-					<pattr name = "shadow_hard" value = "0.7" />
-					<pattr name = "shadow_soft" value = "0.3" />
-					<pattr name = "shadow_soft[1]" value = "0.3" />
-					<pattr name = "shininess" value = "8." />
-					<pattr name = "smooth_shading" value = "0" />
-					<pattr name = "specular_model" value = "toon" />
-					<pattr name = "specular_size" value = "0.193" />
-					<pattr name = "specular_smooth" value = "0.11" />
-					<patcher name = "mat_diffuse">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "mat_specular">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "mat_ambient">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "mat_emission">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0." />
-						<pattr name = "green" value = "0." />
-						<pattr name = "red" value = "0." />
-					</patcher>
-					<patcher name = "fog_color">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-				</patcher>
-			</patcher>
-			<patcher name = "Model_1">
-				<pattr name = "enable" value = "1" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Model_1" />
-				</patcher>
-				<patcher name = "model">
-					<pattr name = "fileName" value = "Drone/Drone.dae" />
-				</patcher>
-				<patcher name = "property">
-					<pattr name = "animenable" value = "1" />
-					<pattr name = "antialias" value = "0" />
-					<pattr name = "auto_material" value = "0" />
-					<pattr name = "axes" value = "0" />
-					<pattr name = "blend" value = "alphablend" />
-					<pattr name = "blend_enable" value = "0" />
-					<pattr name = "cache_mode" value = "vertexarray" />
-					<pattr name = "cull_face" value = "0" />
-					<pattr name = "default_texture" value = "none" />
-					<pattr name = "depth_enable" value = "1" />
-					<pattr name = "displaylist" value = "0" />
-					<pattr name = "drawbounds" value = "0" />
-					<pattr name = "drawgroup" value = "0" />
-					<pattr name = "fileWatch" value = "0" />
 					<pattr name = "layer" value = "10" />
-					<pattr name = "lighting_enable" value = "1" />
-					<pattr name = "material_mode" value = "0" />
-					<pattr name = "matrixoutput" value = "0" />
-					<pattr name = "nodeaxes" value = "0" />
-					<pattr name = "normalize" value = "0" />
-					<pattr name = "poly_mode_backface" value = "0" />
-					<pattr name = "poly_mode_frontface" value = "polygons" />
-					<pattr name = "positionX" value = "0.17" />
-					<pattr name = "positionY" value = "0.03" />
-					<pattr name = "positionZ" value = "-0.127" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
+					<pattr name = "positionZ" value = "0." />
 					<pattr name = "publishTfm" value = "0" />
-					<pattr name = "rotationX" value = "180." />
+					<pattr name = "rotationX" value = "0." />
 					<pattr name = "rotationY" value = "0." />
-					<pattr name = "rotationZ" value = "111." />
-					<pattr name = "scaleX" value = "0.1" />
-					<pattr name = "scaleY" value = "0.1" />
-					<pattr name = "scaleZ" value = "0.1" />
-					<pattr name = "shadow_caster" value = "0" />
-					<pattr name = "shininess" value = "0." />
-					<pattr name = "smooth_shading" value = "1" />
-					<pattr name = "smoothing_angle" value = "89." />
-					<pattr name = "tex_map" value = "0" />
-					<pattr name = "verbose" value = "0" />
-					<patcher name = "renderGroup">
-						<pattr name = "groupOne" value = "0 0 1" />
-						<pattr name = "groupShady" value = "0 0 0" />
-						<pattr name = "groupStage" value = "0 0 1" />
-						<pattr name = "groupTwo" value = "0 0 0" />
-					</patcher>
-					<patcher name = "mat_diffuse">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "1." />
-						<pattr name = "green" value = "1." />
-						<pattr name = "red" value = "1." />
-					</patcher>
-					<patcher name = "mat_specular">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "mat_ambient">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0.5" />
-						<pattr name = "green" value = "0.5" />
-						<pattr name = "red" value = "0.5" />
-					</patcher>
-					<patcher name = "mat_emission">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "0." />
-						<pattr name = "green" value = "0." />
-						<pattr name = "red" value = "0." />
-					</patcher>
-					<patcher name = "material">
-						<pattr name = "address" value = "Material_1" />
-					</patcher>
-					<patcher name = "color">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "1." />
-						<pattr name = "green" value = "1." />
-						<pattr name = "red" value = "1." />
-					</patcher>
-					<patcher name = "shader">
-						<pattr name = "address" value = "&lt;none&gt;" />
-					</patcher>
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "1." />
+					<pattr name = "scaleY" value = "1." />
+					<pattr name = "scaleZ" value = "1." />
+					<pattr name = "showAxis" value = "1" />
 				</patcher>
-				<patcher name = "transformnode">
-					<pattr name = "address" value = "&lt;none&gt;" />
+				<patcher name = "renderGroup">
+					<pattr name = "groupOne" value = "0 0 0" />
+					<pattr name = "groupShady" value = "0 0 0" />
+					<pattr name = "groupStage" value = "0 0 1" />
+					<pattr name = "groupTwo" value = "0 0 0" />
+				</patcher>
+				<pattr name = "enable" value = "1" />
+				<pattr name = "gridsizeX" value = "0.05" />
+				<pattr name = "gridsizeY" value = "0.05" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "Grid_1" />
 				</patcher>
 			</patcher>
 			<patcher name = "HeadRoom_1">
-				<pattr name = "enable" value = "1" />
-				<pattr name = "onstage" value = "1" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "HeadRoom_1" />
-				</patcher>
 				<patcher name = "property">
+					<patcher name = "transformnode[1]">
+						<pattr name = "address" value = "&lt;none&gt;" />
+					</patcher>
+					<patcher name = "color0">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "0.5" />
+						<pattr name = "green" value = "0.5" />
+						<pattr name = "red" value = "0.5" />
+					</patcher>
 					<pattr name = "axes" value = "0" />
 					<pattr name = "axes[1]" value = "1" />
 					<pattr name = "axes[2]" value = "1" />
@@ -266,8 +90,8 @@
 					<pattr name = "axes[4]" value = "0" />
 					<pattr name = "listeningport" value = "47700" />
 					<pattr name = "normalize" value = "0" />
-					<pattr name = "positionX" value = "-0.47" />
-					<pattr name = "positionY" value = "-1.55" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
 					<pattr name = "positionZ" value = "0." />
 					<pattr name = "rotationX" value = "0." />
 					<pattr name = "rotationY" value = "0." />
@@ -278,24 +102,76 @@
 					<pattr name = "serverport" value = "47500" />
 					<pattr name = "transformScale" value = "1." />
 					<pattr name = "verbose" value = "0" />
-					<patcher name = "color0">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "1." />
-						<pattr name = "green" value = "0." />
-						<pattr name = "red" value = "0.116083" />
-					</patcher>
-					<patcher name = "transformnode[1]">
-						<pattr name = "address" value = "&lt;none&gt;" />
-					</patcher>
+				</patcher>
+				<pattr name = "enable" value = "1" />
+				<pattr name = "onstage" value = "1" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "HeadRoom_1" />
 				</patcher>
 			</patcher>
-			<patcher name = "Shape_1">
+			<patcher name = "LOOKAT_FTM">
+				<pattr name = "enable" value = "1" />
+				<pattr name = "positionX" value = "0." />
+				<pattr name = "positionY" value = "0." />
+				<pattr name = "positionZ" value = "0." />
+				<pattr name = "rotationX" value = "125." />
+				<pattr name = "rotationY" value = "0." />
+				<pattr name = "rotationZ" value = "5." />
+				<pattr name = "scaleX" value = "0.5" />
+				<pattr name = "scaleY" value = "0.5" />
+				<pattr name = "scaleZ" value = "0.5" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "LOOKAT_FTM" />
+				</patcher>
+				<patcher name = "parentTransformation">
+					<pattr name = "address" value = "HeadRoom_1:GazePoint" />
+				</patcher>
+			</patcher>
+			<patcher name = "LookAtCamera_1">
+				<patcher name = "cutawayTransformation">
+					<pattr name = "address" value = "LOOKAT_FTM" />
+				</patcher>
+				<patcher name = "bs.node.camera.stereo.properties">
+					<pattr name = "adapt" value = "1" />
+					<pattr name = "adaptRatio" value = "1." />
+					<pattr name = "far_frustum" value = "17." />
+					<pattr name = "fov" value = "45." />
+					<pattr name = "frustum_height" value = "0.22" />
+					<pattr name = "frustum_width" value = "0.38" />
+					<pattr name = "mirrorplane" value = "&quot;x-y plane ('a'=x)&quot;" />
+					<pattr name = "near_frustum" value = "0." />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
+					<pattr name = "positionZ" value = "0." />
+					<pattr name = "ratio" value = "1." />
+					<pattr name = "rotationX" value = "0." />
+					<pattr name = "rotationY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "1." />
+					<pattr name = "scaleY" value = "1." />
+					<pattr name = "scaleZ" value = "1." />
+					<pattr name = "spread" value = "0.1" />
+					<pattr name = "stereo" value = "0" />
+					<pattr name = "transformationpass" value = "pass1" />
+					<pattr name = "upvector" value = "&quot;up 'b'&quot;" />
+				</patcher>
+				<patcher name = "parentTransformation">
+					<pattr name = "address" value = "HeadRoom_1:Eye" />
+				</patcher>
+				<pattr name = "calc_mode" value = "parallel" />
+				<pattr name = "enable" value = "1" />
+				<pattr name = "onstage" value = "1" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "LookAtCamera_1" />
+				</patcher>
+			</patcher>
+			<patcher name = "Screen">
 				<pattr name = "dimX" value = "20" />
 				<pattr name = "dimY" value = "20" />
 				<pattr name = "enable" value = "1" />
 				<pattr name = "shape" value = "plane" />
 				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Shape_1" />
+					<pattr name = "vpl_titleEdit" value = "Screen" />
 				</patcher>
 				<patcher name = "property">
 					<pattr name = "auto_material" value = "0" />
@@ -318,17 +194,17 @@
 					<pattr name = "rotationX" value = "0." />
 					<pattr name = "rotationY" value = "0." />
 					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "0.5" />
-					<pattr name = "scaleY" value = "0.5" />
-					<pattr name = "scaleZ" value = "0.5" />
+					<pattr name = "scaleX" value = "0.38" />
+					<pattr name = "scaleY" value = "0.22" />
+					<pattr name = "scaleZ" value = "1." />
 					<pattr name = "shadow_caster" value = "0" />
 					<pattr name = "shininess" value = "0." />
 					<pattr name = "smooth_shading" value = "0" />
 					<pattr name = "tex_map" value = "0" />
 					<patcher name = "renderGroup">
-						<pattr name = "groupOne" value = "0 0 0" />
+						<pattr name = "groupOne" value = "0 0 1" />
 						<pattr name = "groupShady" value = "0 0 0" />
-						<pattr name = "groupStage" value = "0 0 1" />
+						<pattr name = "groupStage" value = "0 0 0" />
 						<pattr name = "groupTwo" value = "0 0 0" />
 					</patcher>
 					<patcher name = "mat_diffuse">
@@ -369,48 +245,131 @@
 					</patcher>
 				</patcher>
 				<patcher name = "transformnode">
-					<pattr name = "address" value = "LOOKAT" />
+					<pattr name = "address" value = "LOOKAT_FTM" />
 				</patcher>
 			</patcher>
-			<patcher name = "ViewPort_1">
-				<pattr name = "enable" value = "1" />
-				<pattr name = "viewportCol" value = "&quot;column 1&quot;" />
-				<pattr name = "viewportRow" value = "&quot;row 1&quot;" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "ViewPort_1" />
+			<patcher name = "SceneCapture_1">
+				<patcher name = "property">
+					<patcher name = "renderGroupShady">
+						<pattr name = "groupShady" value = "0 0 0" />
+					</patcher>
+					<patcher name = "shader">
+						<pattr name = "address" value = "&lt;none&gt;" />
+					</patcher>
+					<patcher name = "erase_color">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "0." />
+						<pattr name = "green" value = "0." />
+						<pattr name = "red" value = "0." />
+					</patcher>
+					<pattr name = "antialias" value = "0" />
+					<pattr name = "blend_enable" value = "0" />
+					<pattr name = "capture" value = "0" />
+					<pattr name = "dimOverrule" value = "0" />
+					<pattr name = "dimX" value = "640" />
+					<pattr name = "dimY" value = "360" />
+					<pattr name = "flipHorizontal" value = "0" />
+					<pattr name = "flipVertical" value = "0" />
+					<pattr name = "onstage" value = "0" />
+					<pattr name = "rendercontext" value = "0" />
+					<pattr name = "renderpass" value = "passA" />
+					<patcher name = "renderGroup">
+						<pattr name = "groupOne" value = "1 0 1" />
+						<pattr name = "groupStage" value = "0 0 0" />
+						<pattr name = "groupTwo" value = "0 0 0" />
+					</patcher>
 				</patcher>
-				<patcher name = "outputSelection">
-					<pattr name = "address" value = "Window_1" />
+				<patcher name = "transformationSelection">
+					<pattr name = "address" value = "LookAtCamera_1" />
+				</patcher>
+				<pattr name = "enable" value = "1" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "SceneCapture_1" />
+				</patcher>
+			</patcher>
+			<patcher name = "Grid_2">
+				<patcher name = "transformnode">
+					<pattr name = "address" value = "LOOKAT_FTM" />
 				</patcher>
 				<patcher name = "property">
-					<pattr name = "blend_enable" value = "1" />
-					<pattr name = "depth_enable" value = "1" />
-					<pattr name = "fileWatch" value = "0" />
-					<pattr name = "outputMesh" value = "default" />
+					<pattr name = "layer" value = "10" />
 					<pattr name = "positionX" value = "0." />
-					<pattr name = "positionY" value = "0." />
+					<pattr name = "positionY" value = "0.21" />
+					<pattr name = "positionZ" value = "1.02" />
+					<pattr name = "publishTfm" value = "0" />
+					<pattr name = "rotationX" value = "90." />
+					<pattr name = "rotationY" value = "0." />
 					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "1." />
+					<pattr name = "scaleX" value = "0.38" />
 					<pattr name = "scaleY" value = "1." />
-					<pattr name = "transform_reset" value = "0" />
-					<patcher name = "meshColor">
-						<pattr name = "alpha" value = "1." />
-						<pattr name = "blue" value = "1." />
-						<pattr name = "green" value = "1." />
-						<pattr name = "red" value = "1." />
-					</patcher>
-					<patcher name = "effect">
-						<pattr name = "address" value = "&lt;none&gt;" />
-					</patcher>
-					<patcher name = "warpingModel">
-						<pattr name = "fileName" value = "select..." />
-					</patcher>
-					<patcher name = "warpSelection">
-						<pattr name = "address" value = "&lt;none&gt;" />
-					</patcher>
+					<pattr name = "scaleZ" value = "1." />
+					<pattr name = "showAxis" value = "1" />
+				</patcher>
+				<patcher name = "renderGroup">
+					<pattr name = "groupOne" value = "1 0 1" />
+					<pattr name = "groupShady" value = "0 0 0" />
+					<pattr name = "groupStage" value = "0 0 0" />
+					<pattr name = "groupTwo" value = "0 0 0" />
+				</patcher>
+				<pattr name = "enable" value = "1" />
+				<pattr name = "gridsizeX" value = "0.05" />
+				<pattr name = "gridsizeY" value = "0.05" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "Grid_2" />
+				</patcher>
+			</patcher>
+			<patcher name = "Grid_3">
+				<patcher name = "transformnode">
+					<pattr name = "address" value = "LOOKAT_FTM" />
+				</patcher>
+				<patcher name = "property">
+					<pattr name = "layer" value = "10" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "-0.21" />
+					<pattr name = "positionZ" value = "1.02" />
+					<pattr name = "publishTfm" value = "0" />
+					<pattr name = "rotationX" value = "90." />
+					<pattr name = "rotationY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "0.38" />
+					<pattr name = "scaleY" value = "1." />
+					<pattr name = "scaleZ" value = "1." />
+					<pattr name = "showAxis" value = "1" />
+				</patcher>
+				<patcher name = "renderGroup">
+					<pattr name = "groupOne" value = "1 0 1" />
+					<pattr name = "groupShady" value = "0 0 0" />
+					<pattr name = "groupStage" value = "0 0 0" />
+					<pattr name = "groupTwo" value = "0 0 0" />
+				</patcher>
+				<pattr name = "enable" value = "1" />
+				<pattr name = "gridsizeX" value = "0.05" />
+				<pattr name = "gridsizeY" value = "0.05" />
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "Grid_3" />
 				</patcher>
 			</patcher>
 			<patcher name = "Window_1">
+				<patcher name = "_storePosition">
+					<pattr name = "lowerRightDeskopX" value = "544" />
+					<pattr name = "lowerRightDesktopY" value = "849" />
+					<pattr name = "upperLeftDesktopX" value = "105" />
+					<pattr name = "upperLeftDesktopY" value = "689" />
+				</patcher>
+				<patcher name = "property">
+					<pattr name = "antialias" value = "0" />
+					<pattr name = "border" value = "1" />
+					<pattr name = "esc" value = "1" />
+					<pattr name = "floating" value = "0" />
+					<pattr name = "interact" value = "0" />
+					<pattr name = "sync" value = "0" />
+				</patcher>
+				<patcher name = "_orbiter">
+					<pattr name = "orbitOnePosition" value = "position 0. 0. 0." />
+					<pattr name = "orbitOneQuat" value = "quat 0. 0. 0. 1." />
+					<pattr name = "orbitThreePosition" value = "position 0. 0. 3." />
+					<pattr name = "orbitTwoQuat" value = "quat 0. 0. 0. 1." />
+				</patcher>
 				<pattr name = "clipFar" value = "100." />
 				<pattr name = "clipNear" value = "0.1" />
 				<pattr name = "desktop" value = "0" />
@@ -424,182 +383,154 @@
 				<patcher name = "vpl_nodelogic">
 					<pattr name = "vpl_titleEdit" value = "Window_1" />
 				</patcher>
-				<patcher name = "_orbiter">
-					<pattr name = "orbitOnePosition" value = "position 0. 0. 0." />
-					<pattr name = "orbitOneQuat" value = "quat 0. 0. 0. 1." />
-					<pattr name = "orbitThreePosition" value = "position 0. 0. 3." />
-					<pattr name = "orbitTwoQuat" value = "quat 0. 0. 0. 1." />
-				</patcher>
+			</patcher>
+			<patcher name = "ViewPort_1">
 				<patcher name = "property">
-					<pattr name = "antialias" value = "0" />
-					<pattr name = "border" value = "1" />
-					<pattr name = "esc" value = "1" />
-					<pattr name = "floating" value = "0" />
-					<pattr name = "interact" value = "0" />
-					<pattr name = "sync" value = "0" />
+					<patcher name = "warpSelection">
+						<pattr name = "address" value = "select..." />
+					</patcher>
+					<patcher name = "warpingModel">
+						<pattr name = "fileName" value = "select..." />
+					</patcher>
+					<patcher name = "effect">
+						<pattr name = "address" value = "&lt;none&gt;" />
+					</patcher>
+					<patcher name = "meshColor">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "1." />
+						<pattr name = "green" value = "1." />
+						<pattr name = "red" value = "1." />
+					</patcher>
+					<pattr name = "blend_enable" value = "1" />
+					<pattr name = "depth_enable" value = "1" />
+					<pattr name = "fileWatch" value = "0" />
+					<pattr name = "outputMesh" value = "default" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "1." />
+					<pattr name = "scaleY" value = "1." />
+					<pattr name = "transform_reset" value = "0" />
 				</patcher>
-				<patcher name = "_storePosition">
-					<pattr name = "lowerRightDeskopX" value = "545" />
-					<pattr name = "lowerRightDesktopY" value = "885" />
-					<pattr name = "upperLeftDesktopX" value = "5" />
-					<pattr name = "upperLeftDesktopY" value = "658" />
+				<pattr name = "enable" value = "1" />
+				<pattr name = "viewportCol" value = "&quot;column 1&quot;" />
+				<pattr name = "viewportRow" value = "&quot;row 1&quot;" />
+				<patcher name = "outputSelection">
+					<pattr name = "address" value = "Window_1" />
+				</patcher>
+				<patcher name = "vpl_nodelogic">
+					<pattr name = "vpl_titleEdit" value = "ViewPort_1" />
 				</patcher>
 			</patcher>
-			<patcher name = "SceneCapture_1">
+			<patcher name = "RayMarcher_1">
+				<patcher name = "camera0">
+					<pattr name = "address" value = "&lt;none&gt;" />
+				</patcher>
+				<patcher name = "bs.node.camera.stereo.properties">
+					<patcher name = "cameraSelection">
+						<pattr name = "address" value = "&lt;none&gt;" />
+					</patcher>
+					<pattr name = "editor" value = "Brackets" />
+					<pattr name = "fileWatch" value = "0" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
+					<pattr name = "positionZ" value = "0." />
+					<pattr name = "rotationX" value = "-90." />
+					<pattr name = "rotationY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scale" value = "1." />
+					<pattr name = "speed" value = "1." />
+					<pattr name = "useTime" value = "1" />
+				</patcher>
+				<patcher name = "shader">
+					<pattr name = "fileName" value = "ray.ocean.jxs" />
+				</patcher>
 				<pattr name = "enable" value = "1" />
 				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "SceneCapture_1" />
+					<pattr name = "vpl_titleEdit" value = "RayMarcher_1" />
 				</patcher>
-				<patcher name = "transformationSelection">
-					<pattr name = "address" value = "LookAtCamera_1" />
+			</patcher>
+			<patcher name = "Shape_2">
+				<patcher name = "transformnode">
+					<pattr name = "address" value = "&lt;none&gt;" />
 				</patcher>
 				<patcher name = "property">
-					<pattr name = "antialias" value = "1" />
-					<pattr name = "blend_enable" value = "0" />
-					<pattr name = "capture" value = "0" />
-					<pattr name = "dimOverrule" value = "0" />
-					<pattr name = "dimX" value = "1920" />
-					<pattr name = "dimY" value = "1080" />
-					<pattr name = "flipHorizontal" value = "0" />
-					<pattr name = "flipVertical" value = "0" />
-					<pattr name = "onstage" value = "0" />
-					<pattr name = "rendercontext" value = "0" />
-					<pattr name = "renderpass" value = "passA" />
-					<patcher name = "renderGroup">
-						<pattr name = "groupOne" value = "0 0 1" />
-						<pattr name = "groupStage" value = "0 0 0" />
-						<pattr name = "groupTwo" value = "0 0 0" />
+					<patcher name = "shader">
+						<pattr name = "address" value = "RayMarcher_1" />
 					</patcher>
-					<patcher name = "erase_color">
+					<patcher name = "color">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "1." />
+						<pattr name = "green" value = "1." />
+						<pattr name = "red" value = "1." />
+					</patcher>
+					<patcher name = "material">
+						<pattr name = "address" value = "&lt;none&gt;" />
+					</patcher>
+					<patcher name = "mat_emission">
 						<pattr name = "alpha" value = "1." />
 						<pattr name = "blue" value = "0." />
 						<pattr name = "green" value = "0." />
 						<pattr name = "red" value = "0." />
 					</patcher>
-					<patcher name = "shader">
-						<pattr name = "address" value = "&lt;none&gt;" />
+					<patcher name = "mat_ambient">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "0.5" />
+						<pattr name = "green" value = "0.5" />
+						<pattr name = "red" value = "0.5" />
 					</patcher>
-					<patcher name = "renderGroupShady">
+					<patcher name = "mat_specular">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "0.5" />
+						<pattr name = "green" value = "0.5" />
+						<pattr name = "red" value = "0.5" />
+					</patcher>
+					<patcher name = "mat_diffuse">
+						<pattr name = "alpha" value = "1." />
+						<pattr name = "blue" value = "0.5" />
+						<pattr name = "green" value = "0.5" />
+						<pattr name = "red" value = "0.5" />
+					</patcher>
+					<pattr name = "auto_material" value = "0" />
+					<pattr name = "axes" value = "0" />
+					<pattr name = "blend" value = "alphablend" />
+					<pattr name = "blend_enable" value = "0" />
+					<pattr name = "cache_mode" value = "displaylist" />
+					<pattr name = "cull_face" value = "0" />
+					<pattr name = "default_texture" value = "none" />
+					<pattr name = "depth_enable" value = "1" />
+					<pattr name = "drawbounds" value = "0" />
+					<pattr name = "layer" value = "10" />
+					<pattr name = "lighting_enable" value = "0" />
+					<pattr name = "poly_mode_backface" value = "0" />
+					<pattr name = "poly_mode_frontface" value = "polygons" />
+					<pattr name = "positionX" value = "0." />
+					<pattr name = "positionY" value = "0." />
+					<pattr name = "positionZ" value = "0." />
+					<pattr name = "rad_minor" value = "0.5" />
+					<pattr name = "rotationX" value = "0." />
+					<pattr name = "rotationY" value = "0." />
+					<pattr name = "rotationZ" value = "0." />
+					<pattr name = "scaleX" value = "5." />
+					<pattr name = "scaleY" value = "5." />
+					<pattr name = "scaleZ" value = "5." />
+					<pattr name = "shadow_caster" value = "0" />
+					<pattr name = "shininess" value = "0." />
+					<pattr name = "smooth_shading" value = "0" />
+					<pattr name = "tex_map" value = "0" />
+					<patcher name = "renderGroup">
+						<pattr name = "groupOne" value = "1 0 1" />
 						<pattr name = "groupShady" value = "0 0 0" />
+						<pattr name = "groupStage" value = "0 0 0" />
+						<pattr name = "groupTwo" value = "0 0 0" />
 					</patcher>
 				</patcher>
-			</patcher>
-			<patcher name = "LOOKAT">
+				<pattr name = "dimX" value = "20" />
+				<pattr name = "dimY" value = "20" />
 				<pattr name = "enable" value = "1" />
-				<pattr name = "positionX" value = "0." />
-				<pattr name = "positionY" value = "0." />
-				<pattr name = "positionZ" value = "0." />
-				<pattr name = "rotationX" value = "62." />
-				<pattr name = "rotationY" value = "0." />
-				<pattr name = "rotationZ" value = "-91." />
-				<pattr name = "scaleX" value = "0.36" />
-				<pattr name = "scaleY" value = "0.22" />
-				<pattr name = "scaleZ" value = "0.36" />
+				<pattr name = "shape" value = "sphere" />
 				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "LOOKAT" />
-				</patcher>
-				<patcher name = "parentTransformation">
-					<pattr name = "address" value = "HeadRoom_1:GazePoint" />
-				</patcher>
-			</patcher>
-			<patcher name = "LookAtCamera_1">
-				<pattr name = "calc_mode" value = "parallel" />
-				<pattr name = "enable" value = "1" />
-				<pattr name = "onstage" value = "1" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "LookAtCamera_1" />
-				</patcher>
-				<patcher name = "parentTransformation">
-					<pattr name = "address" value = "HeadRoom_1:Eye" />
-				</patcher>
-				<patcher name = "bs.node.camera.stereo.properties">
-					<pattr name = "adapt" value = "1" />
-					<pattr name = "adaptRatio" value = "0.999" />
-					<pattr name = "far_frustum" value = "2." />
-					<pattr name = "fov" value = "90." />
-					<pattr name = "frustum_height" value = "0.22" />
-					<pattr name = "frustum_width" value = "0.36" />
-					<pattr name = "mirrorplane" value = "&quot;x-y plane ('a'=x)&quot;" />
-					<pattr name = "near_frustum" value = "0." />
-					<pattr name = "positionX" value = "0." />
-					<pattr name = "positionY" value = "0." />
-					<pattr name = "positionZ" value = "0." />
-					<pattr name = "ratio" value = "1." />
-					<pattr name = "rotationX" value = "0." />
-					<pattr name = "rotationY" value = "0." />
-					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "1." />
-					<pattr name = "scaleY" value = "1." />
-					<pattr name = "scaleZ" value = "1." />
-					<pattr name = "spread" value = "0.187" />
-					<pattr name = "stereo" value = "0" />
-					<pattr name = "transformationpass" value = "pass1" />
-					<pattr name = "upvector" value = "&quot;up 'b'&quot;" />
-				</patcher>
-				<patcher name = "cutawayTransformation">
-					<pattr name = "address" value = "LOOKAT" />
-				</patcher>
-			</patcher>
-			<patcher name = "Grid_2">
-				<pattr name = "enable" value = "1" />
-				<pattr name = "gridsizeX" value = "0.1" />
-				<pattr name = "gridsizeY" value = "0.17" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Grid_2" />
-				</patcher>
-				<patcher name = "renderGroup">
-					<pattr name = "groupOne" value = "0 0 1" />
-					<pattr name = "groupShady" value = "0 0 0" />
-					<pattr name = "groupStage" value = "0 0 1" />
-					<pattr name = "groupTwo" value = "0 0 0" />
-				</patcher>
-				<patcher name = "property">
-					<pattr name = "layer" value = "10" />
-					<pattr name = "positionX" value = "0." />
-					<pattr name = "positionY" value = "-0.5" />
-					<pattr name = "positionZ" value = "-2.446" />
-					<pattr name = "publishTfm" value = "0" />
-					<pattr name = "rotationX" value = "90." />
-					<pattr name = "rotationY" value = "0." />
-					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "0.5" />
-					<pattr name = "scaleY" value = "4." />
-					<pattr name = "scaleZ" value = "1." />
-					<pattr name = "showAxis" value = "0" />
-				</patcher>
-				<patcher name = "transformnode">
-					<pattr name = "address" value = "LOOKAT" />
-				</patcher>
-			</patcher>
-			<patcher name = "Grid_1">
-				<pattr name = "enable" value = "1" />
-				<pattr name = "gridsizeX" value = "0.05" />
-				<pattr name = "gridsizeY" value = "0.05" />
-				<patcher name = "vpl_nodelogic">
-					<pattr name = "vpl_titleEdit" value = "Grid_1" />
-				</patcher>
-				<patcher name = "renderGroup">
-					<pattr name = "groupOne" value = "0 0 0" />
-					<pattr name = "groupShady" value = "0 0 0" />
-					<pattr name = "groupStage" value = "0 0 1" />
-					<pattr name = "groupTwo" value = "0 0 0" />
-				</patcher>
-				<patcher name = "property">
-					<pattr name = "layer" value = "10" />
-					<pattr name = "positionX" value = "0." />
-					<pattr name = "positionY" value = "0." />
-					<pattr name = "positionZ" value = "0." />
-					<pattr name = "publishTfm" value = "0" />
-					<pattr name = "rotationX" value = "0." />
-					<pattr name = "rotationY" value = "0." />
-					<pattr name = "rotationZ" value = "0." />
-					<pattr name = "scaleX" value = "1." />
-					<pattr name = "scaleY" value = "1." />
-					<pattr name = "scaleZ" value = "1." />
-					<pattr name = "showAxis" value = "1" />
-				</patcher>
-				<patcher name = "transformnode">
-					<pattr name = "address" value = "&lt;none&gt;" />
+					<pattr name = "vpl_titleEdit" value = "Shape_2" />
 				</patcher>
 			</patcher>
 		</patcher>
