@@ -6,6 +6,7 @@ Welcome to the SPARCK Tutorial Examples. In this document you will find some not
 Changelog:
 ==========
 
+	build 18	- updated for Sparck b18
 	build 15	- initial release
 
 
