@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <script>
+	<play name="START"/>
 	<que name="START" loop="no">
 		<print>START</print>
         <play name="videoskip"/>

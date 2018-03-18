@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <script>
+	<play name="START"/>
 	<que name="START" loop="no">
 		<print>Animation started</print>
 			<anim name="Lamp1" duration="20s" loop="normal">
