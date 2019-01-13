@@ -9,17 +9,6 @@
 
 	}
 ,
-	"bs_gui_win_Light_1_P_Light" : 	{
-		"_pin" : 0,
-		"_type" : "Light",
-		"_slotsize" : 65,
-		"Main" : 		{
-			"_visible" : 0,
-			"_slotted" : 0
-		}
-
-	}
-,
 	"_storenames" : "Main",
 	"bs_gui_win_Model_2_P_Model" : 	{
 		"_pin" : 0,
@@ -33,7 +22,7 @@
 	}
 ,
 	"bs_gui_win_Light_2_P_Light" : 	{
-		"_pin" : 0,
+		"_pin" : 1,
 		"_type" : "Light",
 		"_slotsize" : 65,
 		"Main" : 		{
@@ -46,7 +35,12 @@
 	"bs_gui_win_QueScript_1_PB_ProgressBar" : 	{
 		"_pin" : 0,
 		"_type" : "ProgressBar",
-		"_slotsize" : 25
+		"_slotsize" : 25,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
 	}
 ,
 	"bs_gui_win_QueScript_1_P_Script" : 	{
@@ -125,7 +119,12 @@
 	"bs_gui_win_BGMaterial_P_Material" : 	{
 		"_pin" : 0,
 		"_type" : "Material",
-		"_slotsize" : 25
+		"_slotsize" : 25,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
 	}
 ,
 	"bs_gui_win_Sphere_P_Model" : 	{
@@ -143,6 +142,50 @@
 		"_pin" : 0,
 		"_type" : "Model",
 		"_slotsize" : 45,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Light_1_shadow_P_Light" : 	{
+		"_pin" : 1,
+		"_type" : "Light",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Light_1_P_Light" : 	{
+		"_pin" : 1,
+		"_type" : "Light",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Light_2_shadow_P_Light" : 	{
+		"_pin" : 1,
+		"_type" : "Light",
+		"_slotsize" : 65,
+		"Main" : 		{
+			"_visible" : 0,
+			"_slotted" : 0
+		}
+
+	}
+,
+	"bs_gui_win_Light_3_shadow_P_Light" : 	{
+		"_pin" : 1,
+		"_type" : "Light",
+		"_slotsize" : 65,
 		"Main" : 		{
 			"_visible" : 0,
 			"_slotted" : 0

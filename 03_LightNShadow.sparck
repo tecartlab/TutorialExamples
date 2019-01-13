@@ -53,7 +53,7 @@
 			"_title" : "Light_1",
 			"_nodespace" : "root",
 			"_level" : 0,
-			"_rect" : [ 397, 38, 577, 99 ],
+			"_rect" : [ 402, 184, 582, 245 ],
 			"_nodespace.idx" : 1
 		}
 ,
@@ -66,7 +66,7 @@
 			"_title" : "Light_2",
 			"_nodespace" : "root",
 			"_level" : 0,
-			"_rect" : [ 587, 175, 767, 236 ],
+			"_rect" : [ 403, 255, 583, 316 ],
 			"_nodespace.idx" : 2
 		}
 ,
@@ -78,8 +78,44 @@
 			"_title" : "Light_3",
 			"_nodespace" : "root",
 			"_level" : 0,
-			"_rect" : [ 396, 128, 576, 189 ],
+			"_rect" : [ 402, 325, 582, 386 ],
 			"_nodespace.idx" : 3
+		}
+,
+		"Light_4" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 4,
+			"_name" : "Light_4",
+			"_title" : "Light_1_shadow",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 592, 184, 772, 245 ],
+			"_nodespace.idx" : 4
+		}
+,
+		"Light_5" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 5,
+			"_name" : "Light_5",
+			"_title" : "Light_2_shadow",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 599, 254, 779, 315 ],
+			"_nodespace.idx" : 5
+		}
+,
+		"Light_6" : 		{
+			"_type" : "Light",
+			"_version" : 1,
+			"_id" : 6,
+			"_name" : "Light_6",
+			"_title" : "Light_3_shadow",
+			"_nodespace" : "root",
+			"_level" : 0,
+			"_rect" : [ 593, 324, 773, 385 ],
+			"_nodespace.idx" : 6
 		}
 
 	}
@@ -109,7 +145,7 @@
 			"_title" : "Light2_TFM",
 			"_nodespace" : "root",
 			"_level" : 0,
-			"_rect" : [ 586, 38, 766, 169 ],
+			"_rect" : [ 397, 43, 577, 174 ],
 			"_nodespace.idx" : 1
 		}
 ,
